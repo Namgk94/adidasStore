@@ -39,5 +39,6 @@ Mã Sinh Viên: 211210966
     + Tra cứu đơn hàng: Nhập gmail mua hàng và mã đơn hàng đúng sẽ cho ra thông tin đơn hàng đó.
     
 -) DEMO
-  
-    ![admin_anh1](https://user-images.githubusercontent.com/95535282/235729474-00adb83c-6e92-4119-bd32-38568dc285da.png)
+  <div align="center">
+    <img src="" width="400px"</img> 
+  </div>
