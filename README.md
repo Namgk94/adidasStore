@@ -20,7 +20,7 @@ Mã Sinh Viên: 211210966
     
     + Quản lý đánh giá: Theo dõi đánh giá của khách hàng.
     
--) TRANG CLIENT: 
+-) TRANG CUSTOMER: 
     
     + Hiển thị sản phẩm theo các danh mục.
     
@@ -39,6 +39,6 @@ Mã Sinh Viên: 211210966
     + Tra cứu đơn hàng: Nhập gmail mua hàng và mã đơn hàng đúng sẽ cho ra thông tin đơn hàng đó.
     
 -) DEMO
-  <div align="center">
-    <img src="" width="400px"</img> 
-  </div>
+  CLICK ĐỂ XEM: 
+   +/ Trang Admin: https://github.com/Namgk94/adidasStore/issues/1#issue-1692745521
+   +/ Trang Customer: https://github.com/Namgk94/adidasStore/issues/2#issue-1692762192
