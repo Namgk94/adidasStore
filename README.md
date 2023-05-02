@@ -8,6 +8,20 @@ Mã Sinh Viên: 211210966
 
 ---------------------------------
 
+- CHỨC NĂNG CỦA CÁC PACKAGE TRONG JAVA:
+
+    + Controller: Chứa các file servlet để thao tác, tương tác, trao đổi thông tin giữa Client và WebServer.
+    
+    + Model: Chứa các đối tượng như sản phẩm, hóa đơn, chi tiết hóa đơn, giỏ hàng,...
+    
+    + Database: Chứa các lớp với các phương thức để tương tác với Cơ sở dữ liệu qua JDBC.
+    
+    + Service: Là package để lưu các lớp nhằm quản lý các đối tượng, mảng đối tượng.
+    
+    + Cookie: Xử lý các chức năng liên quan đến Cookie.
+
+---------------------------------
+
 -) TRANG ADMIN:
 
     + Theo dõi thông tin cửa hàng: Tổng khách hàng đăng ký, Tổng sản phẩm hiện có, Tổng đơn hàng, Số loại sản phẩm sắp hết hàng. Biểu đồ doanh thu, 
