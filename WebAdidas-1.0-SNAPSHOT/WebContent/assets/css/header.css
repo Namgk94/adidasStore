@@ -1,0 +1,173 @@
+/* 
+    Created on : Feb 10, 2023, 3:35:00 PM
+    Author     : NAM
+*/
+#header{
+    transition: 0.3s all linear;
+}
+.transition-group{
+    background-color: #000;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transition-group .transition-item{
+    font-size: 14px;
+}
+
+.header-wrapper{
+    background-color: #fff;
+    padding: 0 30px;
+}
+.header-top .header-top-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+}
+.header-top-menu .header-top-item{
+    margin: 0 10px;
+    font-size: 12px;
+}
+.header-top-item button{
+    background-color: transparent;
+    border: none;
+}
+.header-top-menu .header-top-item:hover .login-btn,
+.header-top-menu .header-top-item:hover{
+    text-decoration: underline;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    z-index: 10 !important;
+    overflow: hidden;
+    background-color: #fff;
+
+    border-bottom: 1px solid #eceff1;
+}
+.header-bottom.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:10px 30px;
+}
+.header-bottom .logobrand{
+    flex: 1;
+}
+.header-bottom .logobrand img{
+    width: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+.header-bottom .navbar{
+    display: flex;
+    flex: 15;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom .navbar .nav-item{
+    margin: 0 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.header-bottom .navbar .nav-item:hover{
+}
+.nav-item.hightlight{
+    font-weight: bolder;
+}
+.header-bottom .header-function{
+    display: flex;
+    flex: 6;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-function button{
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    margin: 0 5px;
+}
+.search-section input{
+    width: 180px;
+    height: 35px;
+    background-color: #eceff1;
+    font-size: 14px;
+    padding: 10px;
+    padding-right: 25px;
+    outline: none;
+    border: thin solid #ccc;
+    transition: all ease-in-out 0.5s;
+}
+.search-section input:focus,
+.search-section input:focus-visible,
+.search-section input:active{
+    border: 1px solid #555555;
+    transition: all ease-in-out 0.5s;
+}
+.search-section form{
+    position: relative;
+}
+.search-section .searchBtn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+
+
+/* modal user */
+.header-function .user p{
+    margin: 0;
+    cursor: pointer;
+}
+
+.modal-user{
+    border-radius: 20px 0 0 150px;
+    visibility: visible;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    min-height: 500px;
+    right: 0px;
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #000;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    padding: 50px 20px;
+    min-width: 15%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+.modal-user .close-modal{
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    transition: 0.3s all linear;
+}
+.modal-user .close-modal:hover{
+    color: red;
+    transform: scale(1.2);
+}
+.modal-user .close-modal i{
+    font-size: 20px;
+}
+.modal-user a{
+    padding: 15px;
+}
+.modal-user p i{
+    text-align: center;
+    margin-right: 10px;
+}
+.active-modal{
+    display: flex;
+}

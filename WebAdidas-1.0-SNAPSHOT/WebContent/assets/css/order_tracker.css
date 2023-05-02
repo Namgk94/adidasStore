@@ -1,0 +1,26 @@
+/* 
+    Created on : Feb 11, 2023, 1:58:22 PM
+    Author     : NAM
+*/
+
+.order-tracker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-order-tracker{
+    width: 70%;
+    flex: unset !important;
+}
+.form-order-tracker-1{
+    margin-bottom: 100px;
+}
+.form-order-tracker-2 p{
+    width: 50%;
+}
+.form-order-tracker-2 button{
+    background-color: #fff !important;
+    color: #000 !important;
+    box-shadow: unset !important;
+    border: 1px solid #000 !important;
+}

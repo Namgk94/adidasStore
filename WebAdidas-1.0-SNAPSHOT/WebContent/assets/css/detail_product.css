@@ -1,0 +1,295 @@
+/* 
+    Created on : Mar 12, 2023, 5:30:02 PM
+    Author     : NAM
+*/
+
+.buy-product-section{
+    display: flex;
+}
+.pd-img{
+    flex: 7;
+    width: 100%;
+}
+.pd-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+li{
+    list-style: none;
+}
+.pd-info{
+    flex: 3.3;
+    width: 100%;
+    padding: 30px;
+}
+.pd-header{
+    display: flex;
+    flex-direction: column;
+}
+.pd-header h3{
+    font-weight: bolder;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.price{
+    position: relative;
+}
+.price::after{
+    content: "₫";
+    font-size: 16px;
+    position: relative;
+    left: 2px;
+}
+.bold-text{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sizes ul{
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+.sizes ul li{
+    width: 80px;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #c2c2c2;
+    border-right: unset;
+    color: #333;
+    transition: 0.1s all linear;
+}
+.sizes ul li:last-child{
+    border-right: 1px solid #c2c2c2;
+}
+.sizes ul li:hover{
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+.sizes ul li.active{
+    color: #fff;
+    background-color: black;
+}
+
+.pd-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.pd-action form {
+    flex: 4;
+}
+.pd-action form button{
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    padding:10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 4px 4px 0px 0px #9b9b9b;
+    transition: 0.3s all linear;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.pd-action form button:hover{
+    color: #7d7d7d;
+}
+.pd-action form button i{
+    margin-left: 8px;
+}
+.pd-action .wishlist{
+    padding: 10px;
+    border: 1px solid #333;
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pd-action .wishlist p{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+.pd-footer p a{
+    color: #000 !important;
+    padding: 3px;
+}
+
+.pd-footer p a:hover{
+    color: #fff !important;
+    background-color: #000;
+}
+.active-modal{
+    display: flex !important;
+}
+.wrapper-modal{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0,0.6);
+}
+.content-modal{
+    border: 1px solid #000;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0px #ffffff7e;
+}
+.content-modal span{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+.modal-success span{
+    color: #333;
+}
+.modal-success i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 255, 105);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.modal-failed span{
+    color: rgb(255, 55, 55);
+}
+.modal-failed i{
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 14px;
+}
+.modal-failed .close{
+    right: 0 !important;
+}
+.content-modal .close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #000 !important;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+.content-modal .close:hover{
+    transform: scale(1.5);
+}
+
+.content-modal.modal-success form{
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.content-modal.modal-success form button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.content-modal.modal-success form button:hover i{
+    transform: scale(1.5);
+}
+
+
+
+/* review section */
+.review-section{
+    margin: 100px 0;
+    border-top: 1px solid #a8a8a8;
+}
+.review-section .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.review-section .header h5{
+    font-size: 25px;
+}
+.review-section .header .avg-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-section .header .star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.review-section .header .star i{
+    color: #333;
+    font-size: 20px ;
+}
+.review-section .header .star .rate-star{
+    color: #2ada71 !important;
+}
+.review-section .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.review-section .body .review{
+    width: 80%;
+    border-right: 1px solid #333;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.review-section .body .review-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-section .body .review-header p{
+    font-size: 12px;
+    margin: 0;
+    color: #7d7d7d;
+}
+.review-section .body .review-header h5{
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+.review-section .body .star{
+    display: flex;
+    margin: 20px 0  ;
+}
+.review-section .body .star i{
+    padding: 5px;
+    font-size: 13px;
+}
+.review-section .body .star .rate-star{
+    color: #ffcc3b !important;
+}
+.review-section .body .text p{
+    margin: 0;
+    font-size: 16px;
+}
