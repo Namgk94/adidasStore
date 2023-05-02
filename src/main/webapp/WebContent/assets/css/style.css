@@ -1,0 +1,19 @@
+/* 
+    Created on : Feb 10, 2023, 2:24:00 PM
+    Author     : NAM
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none !important;
+    color: unset;
+}
+li{
+    list-style: none;
+}
