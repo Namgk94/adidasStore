@@ -26,23 +26,25 @@ Mã Sinh Viên: 211210966
 
     + Theo dõi thông tin cửa hàng: Tổng khách hàng đăng ký, Tổng sản phẩm hiện có, Tổng đơn hàng, Số loại sản phẩm sắp hết hàng. Biểu đồ doanh thu, 
     
-    lợi nhuận, số lượng đơn hàng trong 6 tháng. Các đơn hàng, khách hàng mới nhất
+    lợi nhuận, số lượng đơn hàng trong 6 tháng. Bảng thông tin các đơn hàng và khách hàng mới nhất của cửa hàng
     
     + Quản lý sản phẩm: Thêm, sửa, xóa.
     
     + Quản lý đơn hàng: Thêm, sửa, xóa.
     
-    + Quản lý đánh giá: Theo dõi đánh giá của khách hàng.
+    + Quản lý đánh giá: Theo dõi tất cả đánh giá của khách hàng.
     
 -) TRANG CUSTOMER: 
     
-    + Hiển thị sản phẩm theo các danh mục.
+    + Hiển thị sản phẩm theo các danh mục: Sử dụng vòng lặp để render các sản phẩm và servlet để bắt các parameter trên đường dẫn và tương tác với Database qua JDBC.
     
-    + Thêm sản phẩm vào giỏ hàng.
+    + Tìm kiếm các sản phẩm theo từ khóa.
     
-    + Xem chi tiết sản phẩm.
+    + Thêm sản phẩm vào giỏ hàng: Khi đã chọn size thì sản phẩm sẽ được thêm, ngược lại thì đẩy ra thông báo lỗi.
     
-    + Giỏ hàng: Xóa sản phẩm, tiến hành lấy thông tin thanh toán.
+    + Xem chi tiết sản phẩm khi ấn vào thẻ sản phẩm, hiển thị các đánh giá của khách hàng về sản phẩm đó.
+    
+    + Giỏ hàng: Xem các sản phẩm đang có trong giỏ, Xóa sản phẩm, tiến hành lấy thông tin thanh toán(Check out).
     
     + Đăng ký khách hàng mới.
     
