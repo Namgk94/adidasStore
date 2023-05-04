@@ -22,6 +22,17 @@ Mã Sinh Viên: 211210966
 
 ---------------------------------
 
+- Database:
+
+<img width="725" alt="a11" src="https://user-images.githubusercontent.com/95535282/236157850-f1c5b473-5a0d-4699-b9d1-4ab7e76c651a.png">
+<img width="725" alt="a11" src="https://user-images.githubusercontent.com/95535282/236157822-b0622bcd-cc6f-4b83-8e8b-f604523f1555.png">
+<img width="725" alt="a11" src="https://user-images.githubusercontent.com/95535282/236156900-af98555f-7bb2-4430-8b32-7c2599ccff87.png">
+<img width="724" alt="a12" src="https://user-images.githubusercontent.com/95535282/236156907-8e6f7f72-c359-4ba8-80d3-9e83da94c85e.png">
+<img width="424" alt="a13" src="https://user-images.githubusercontent.com/95535282/236156921-9778fefb-b851-4ded-96c3-7e86db645895.png">
+<img width="411" alt="a14" src="https://user-images.githubusercontent.com/95535282/236156931-2f3e0347-2b9a-4e6d-87dc-8a7aa6cb9af2.png">
+
+
+
 -) TRANG ADMIN:
 
     + Theo dõi thông tin cửa hàng: Tổng khách hàng đăng ký, Tổng sản phẩm hiện có, Tổng đơn hàng, Số loại sản phẩm sắp hết hàng. Biểu đồ doanh thu, 
@@ -61,3 +72,5 @@ Mã Sinh Viên: 211210966
    +/ Trang Admin: https://github.com/Namgk94/adidasStore/issues/1#issue-1692745521
    
    +/ Trang Customer: https://github.com/Namgk94/adidasStore/issues/2#issue-1692762192
+   
+   +/ Database
